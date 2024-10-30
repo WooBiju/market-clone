@@ -9,7 +9,7 @@ body {
 }
 
 .media-info-msg {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
@@ -18,12 +18,12 @@ body {
     justify-content: center;
     align-items: center;
     background-color: sandybrown;
-    opacity: 1;
+    
 }
 
 @media screen and (max-width:460px) {
     .media-info-msg {
-        opacity: 0;
+        display: none;
     }
 }
 
